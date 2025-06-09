@@ -1,8 +1,7 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/vite-portfolio1/',
+  base: '/vite-portfolio-ghp/', // ← ここを修正！
   plugins: [react()],
 })
