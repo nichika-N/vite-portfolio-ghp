@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ✅ 背景画像の指定（GitHub Pages用の相対パス） */
+/* ✅ 背景画像の指定（GitHub Pages用の絶対パス） */
 body {
-  background-image: url('./images/flower-bg2.png'); /* ← 相対パスに修正 */
+  background-image: url('/vite-portfolio-ghp/images/flower-bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

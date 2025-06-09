@@ -4,7 +4,7 @@ function Welcome() {
   const nameText = "Nichika Nakamura";
 
   return (
-    <div className="min-h-screen bg-cover bg-center bg-[url('/images/flower-bg.png')] flex flex-col items-center justify-start pt-32">
+    <div className="min-h-screen bg-cover bg-center bg-[url('/vite-portfolio-ghp/images/flower-bg.png')] flex flex-col items-center justify-start pt-32">
       {/* タイトル */}
       <h1 className="text-white/70 text-9xl px-6 py-4 tracking-wide font-flowers animate-fadeIn animate-sway">
         Portfolio
@@ -26,7 +26,7 @@ function Welcome() {
       </div>
 
       {/* ボタン：React RouterのLinkで遷移 */}
-      <Link to="/vite-portfolio-ghp/portfolio">
+      <Link to="/portfolio">
         <button
           className="mt-4 bg-white/30 border border-white text-white px-6 py-2 rounded-none backdrop-blur-md shadow-md hover:bg-white/50 hover:text-white transition duration-300 animate-glow"
         >
